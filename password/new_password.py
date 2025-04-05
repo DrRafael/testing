@@ -9,6 +9,6 @@ def generate_password(length=12):
         password += random.choice(characters)
     return password
 
-# Пример использования
+# Пример использования 12
 password_length = 12  # Вы можете выбрать любую длину пароля
 print("Ваш новый пароль:", generate_password(password_length))
